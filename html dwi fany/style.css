@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+}
+header{
+    background-color:blue;
+    text-align: center;
+    padding: 30px;
+}
+header h1 {
+    font-size: 30px;
+}
+section p {
+    color: darkcyan;
+}
+article h2 p{
+    color: coral;
+}
+Nav {
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+Nav a{
+    float: left;
+    display: block;
+    color: orangered;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.card {
+    background-color: blueviolet ;
+    padding: 20PX;
+    margin-top: 20PX;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: gainsboro;
+    margin-top: 20px;
+}
+@media screen and ( max-width: 500px){
+    .row, .column {
+        width: 100px;
+        padding: 0;
+    }
+
+}
